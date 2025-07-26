@@ -1,0 +1,73 @@
+/* -------- Font --------- */
+@font-face {
+  font-family: 'Shabnam-Light';
+  
+  src: url('./assets/fonts/shabnam/Shabnam-Light.ttf') format('truetype');
+ 
+  font-weight: normal;
+  
+  font-style: normal;
+  
+}
+
+@font-face {
+  font-family: 'Shabnam-bold';
+  
+  src: url('./assets/fonts/shabnam/Shabnam-Bold.ttf') format('truetype');
+  
+  font-weight: normal;
+  
+  font-style: normal;
+  }
+
+@font-face {
+  font-family: 'Shabnam-medium';
+  
+  src: url('./assets/fonts/shabnam/Shabnam-Medium.ttf') format('truetype');
+  
+  font-weight: normal;
+ 
+  font-style: normal;
+  }
+
+@font-face {
+  font-family: 'Shabnam';
+ 
+  src: url('./assets/fonts/shabnam/Shabnam.ttf') format('truetype');
+  
+  font-weight: normal;
+ 
+  font-style: normal;
+  
+}
+
+/* -webkit-scrollbar استایل تعیین شده برای اسکرول از سمت مرورگر هاست
+فقط در مرورگرهایی مثل Chrome، Safari، Edge */
+
+.custom-scrollbar::-webkit-scrollbar {
+    width: 6px;
+
+}
+
+/* مسیر یا پس‌زمینه اسکرول‌باره، یعنی قسمتی که thumb (دسته اسکرول) روی اون حرکت می‌کنه. */
+
+.custom-scrollbar::-webkit-scrollbar-track {
+    background: transparent;
+    opacity: 50%;
+
+}
+
+/* دسته اسکرول‌بار */
+.custom-scrollbar::-webkit-scrollbar-thumb {
+    background-color: #093fb450; 
+    border-radius: 10px;
+    border: 1px solid white;
+    opacity: 50%;
+
+}
+
+/* استایل اسکرول بار برای مرورگر فایرفاکس */
+.custom-scrollbar {
+    scrollbar-width: thin;
+    scrollbar-color: #093fb450 transparent;
+}
